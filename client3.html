@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <style>
+    body {
+      background-color: black;
+    }
+    .card {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar-expand-lg">
+        <div class="container-fluid" style="background-color: #ff797b; height: 50px; display: flex; align-items: center;">
+          <a class="navbar-brand" href="index.html" style="align-items: center; display: flex;">
+            <img src="logo.png" alt="Logo" width="30" height="34" class="d-inline-block align-text-top" style="margin-right: 10px;">
+            Dashboard
+          </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col-12" style="background-color: #ff797b; margin-top: 20px; border-radius: 10px; padding: 20px;">
+            <li>Nome completo</li>
+            <div class="card" style="width: 98%;">
+                <div class="card-body">
+                    Bruno Henrique Pinto
+                </div>
+            </div>
+            <li>Data de nascimento</li>
+            <div class="card" style="width: 98%;">
+                <div class="card-body">
+                    29 de dezembro de 1990
+                </div>
+            </div>
+        </div>
+        <div class="col-12" style="background-color: #ff797b; margin-top: 20px; border-radius: 10px;padding: 20px;">
+            <li>Data de Estreia</li>
+            <div class="card" style="width: 98%;">
+                <div class="card-body">
+                    <input type="date" id="dateField" style="width: 100%;">
+                  </div>
+            </div>
+        </div>
+        <div class="row" style="justify-content: center;">
+            <a href= index.html class="btn" style="width: 394px; background-color: #ff797b; margin: 20px; color: black;";>Voltar</a>
+        </div>
+    </div>
+</body>
+</html>
